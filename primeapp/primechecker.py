@@ -14,7 +14,7 @@ def twokm(num,k):
     return k-1, numtoreturn
 #Undergoes step 3 of the process. Returns true if probably prime, and false if not prime
 def modulo(somenum, bO, occ):
-    if occ>50:
+    if occ>10:
         return False
     if occ ==0:
         if bO%somenum == 1 or bO%somenum == somenum -1:
